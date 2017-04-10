@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Travel forms for Personal information:</legend>
+            <div class="container">
+                <div class="row text">
+                    <br><br> First name:<br>
+                    <input id="firstname" type="text" name="firstname" value="" placeholder="First name"><br>
+
+                    <br><br> Last name:<br>
+                    <input id="lastname" type="text" name="lastname" value="" placeholder="last name">
+                </div>
+            </div>
+            <div class="container" >
+                <div class="row number">
+                    <br> AGE:<br>
+                    <input id="age" type="number" name="age" min="1" max="100" value="">
+                </div>
+            </div>
+            <div class="container-gender">
+            <div class="row-gender text">
+            <br class="gender">Gender:</br>
+            <input type="radio" name="gender" value="male" checked class="gender"> Male<br>
+            <input type="radio" name="gender" value="female" class="gender"> Female<br>
+            <input type="radio" name="gender" value="other" class="gender"> Other
+
+            <div class="container-gender">
+                
+
+                </div>
+            </div>
+            <br> Countries<br>
+            <div class="container">
+                <div class="row text">
+                    <select id="countries" name="Countries">
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="frence">Frence</option>
+                </select>
+                    <br><br>
+                </div>
+            </div>
+            <form>
+                <div id="dietary" class="container">
+                    <div class="row text">
+                        <br> Dietary Restrictions:<br>
+                        <label class="checkbox-inline">
+      <input type="checkbox" value="Vegetarian" name="veg" class="veg">Vegetarian
+    </label>
+                        <label class="checkbox-inline">
+      <input type="checkbox" value="Kosher" name="veg" class="veg">Kosher
+    </label>
+                        <label class="checkbox-inline">
+      <input type="checkbox" value="Lactose" name="veg" class="veg">Lactose Free
+    </label>
+                    </div>
+                </div>
+            </form>
+            <br><br>
+
+
+        </fieldset>
+    </form>
+    <div>
+
+       <button id="submit">Submit</button>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

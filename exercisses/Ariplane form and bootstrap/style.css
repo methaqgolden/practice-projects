@@ -1,0 +1,63 @@
+body {
+    background-image: url("http://cdn-image.travelandleisure.com/sites/default/files/styles/tnl_redesign_article_landing_page/public/landing1015-airplane.jpg?itok=VSTPzlW6");
+/*    background-color: #cccccc;*/
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+/*
+    padding: 0;
+    margin: 0;
+*/
+    overflow-x: hidden;
+    overflow-y: scroll;
+    opacity: .5;
+}
+
+#submit {
+    
+    
+    width: 25%;
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+/*
+    padding 20px;
+    margin: 10px;
+*/
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    width: 25%;
+      
+}
+
+div {
+    border-radius: 100px;
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+legend {
+    font-size: 40px;
+    text-align: center;
+}
+input {
+    width: 25%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    margin: 0px ;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button {
+    margin-left: 500px;
+}
