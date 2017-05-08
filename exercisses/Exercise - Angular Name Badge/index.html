@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ng-App="myName">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="data">
+    <form>
+        <div class="container">
+            <h1 class="well">Exercise - Angular Name Badge</h1>
+
+            <div class="row">
+                <div class="col-lg-10 col-md-offset-1">
+
+                    <div class="from-group">
+                        <lable>First Name</lable>
+                        <input class="form-control" type="text" ng-model="first">
+                    </div>
+
+                    <div class="from-group">
+                        <lable>Last Name</lable>
+                        <input class="form-control" type="text" ng-model="last">
+                    </div>
+                    <div class="from-group">
+                        <lable>Email</lable>
+                        <input class="form-control" type="text" ng-model="email">
+                    </div>
+                    <div class="from-group">
+                        <lable>Place of Birth</lable>
+                        <input class="form-control" type="text" ng-model="birth">
+                    </div>
+                    <div class="from-group">
+                        <lable>Phone</lable>
+                        <input class="form-control" type="text" ng-model="phone">
+                    </div>
+                    <div class="from-group">
+                        <lable>Favorite Food</lable>
+                        <input class="form-control" type="text" ng-model="food">
+                    </div>
+                    <div class="from-group">
+                        <lable>information</lable>
+                        <textarea class="form-control" type="text" ng-model="info"></textarea>
+                    </div>
+                    <div class="from-group">
+
+                        <button ng-click="submit()">Submit</button>
+                    </div>
+                    <div ng-repeat="person in arr">
+
+                        <div class="row">
+                            <div class="from-group">
+                               <tr>
+                               <th>
+                                <td>{{person.firstName}}</td>
+                                <td>{{person.lastName}}</td>
+                                <td>{{person.Email}}</td>
+                                <td>{{person.placeOfBirth}}</td>
+                                <td>{{person.phoneNnm}}</td>
+                                <td>{{person.FavFood}}</td>
+                                <td>{{person.information}}</td>
+                                </th>
+                                </tr>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

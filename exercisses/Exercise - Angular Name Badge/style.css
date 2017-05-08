@@ -1,0 +1,11 @@
+body {
+    background-color: pink;
+    border-collapse: collapse;
+}
+h1 {
+    text-align: center;
+}
+td {
+    text-align: center;
+    background-color: aqua;
+}
