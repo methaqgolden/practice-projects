@@ -1,0 +1,23 @@
+body {
+    background-color: greenyellow;
+    border-collapse: collapse;
+}
+h1 {
+    text-align: center;
+}
+td {
+    text-align: center;
+    background-color: greenyellow;
+    
+}
+.submit {
+    text-align: center;
+    margin-left: 550px;
+}
+#mazin {
+    text-align: center;
+}
+#methaq {
+    width: 200px;
+    height: 200px;
+}

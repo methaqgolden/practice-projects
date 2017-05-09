@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-App="myName">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ugly Things</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body ng-controller="data">
+    <form>
+        <div class="container">
+            <h1 class="well">Ugly Things</h1>
+            <div class="row">
+                <div class="col-lg-10 col-md-offset-1">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <lable>Tital</lable>
+                            <input class="form-control" type="text" ng-model="tital">
+                        </div>
+                        <div class="col-lg-6">
+                            <lable>Img URL</lable>
+                            <input class="form-control" ng-model="pic" type="text" />
+
+                        </div>
+                        <div class="col-lg-3">
+                            <lable>Descrabition</lable>
+                            <input class="form-control" type="text" ng-model="descrabition">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <button class="submit" ng-click="submit()">Submit</button>
+            </div>
+            <div ng-repeat="person in arr">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div id="mazin" >
+                            <div class="well">{{person.tital}}</div>
+                            <div class="well">{{person.descrabition}}</div>
+                            <div class="well"> <img ng-src="{{person.imgUrl}}" id="methaq"/></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
