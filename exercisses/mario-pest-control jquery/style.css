@@ -1,0 +1,110 @@
+body {
+    background-image: url("http://www.newyorker.com/wp-content/uploads/2016/12/Parkin-SuperMariosReluctantLeapToTheiPhone-1200.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 100px;
+    color: #ffccff;
+    margin: 5px;
+    text-shadow: 3px 2px black;
+    padding: 0px;
+    border-spacing: 5px;
+    border-top: 0px;
+}
+
+.container {
+    font-size: 20px;
+    background-color: #ffe6ff;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    background: #ffccff;
+    padding: 20px;
+    margin-left: 150px;
+    width: 15%;
+    display: inline-block;
+    border-top-right-radius: 100px;
+    border-top-left-radius: 100px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+}
+
+li {
+    font-size: 30px;
+    color: #e6ac00;
+    width: 30%;
+    display: block;
+    opacity: .9;
+    text-align: center;
+}
+
+.goombas {
+    width: 200px;
+    height: 100px;
+}
+
+.Bob {
+    width: 200px;
+    height: 100px;
+}
+
+.Cheep {
+    width: 200px;
+    height: 100px;
+}
+
+#caught1 {
+    width: 100px;
+    height: 20px;
+}
+
+#total {
+    background: #ffccff;
+    padding: 20px;
+    margin: auto;
+    width: 200px;
+    height: 20px;
+    display: inline-block;
+}
+
+.result {
+    text-align: center;
+}
+
+#footer-content {
+    margin-bottom: 0;
+}
+
+div.container {
+    opacity: .6;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+    ul {
+        width: 100%;
+    }
+    li {
+        width: 100%;
+    }
+    body {}
+}

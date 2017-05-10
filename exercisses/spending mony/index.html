@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>angular Balance</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="balance">
+
+    <table>
+
+        <tr>
+            <td class="Well" colspan="4">Methaq Monthly Budget</td>
+        </tr>
+        <tr>
+            <th>Description</th>
+            <th>Money IN</th>
+            <th>Money Out</th>
+<!--            <th>Balance</th>-->
+        </tr>
+        <tr>
+            <td>Wages</td>
+            <td><input class="Well" type="number" ng-model="income"></td>
+            <td><input class="Well" type="number" ng-model="spending"></td>
+            <td>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Rent</td>
+            <td><input class="Well" type="number" ng-model="income1"></td>
+            <td><input class="Well" type="number" ng-model="spending1"></td>
+            <td>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td>Food</td>
+            <td><input class="Well" type="number" ng-model="income2"></td>
+            <td><input class="Well" type="number" ng-model="spending2"></td>
+            <td>
+                <p></p>
+            </td>
+        </tr>
+    </table>
+
+    <div>
+        <span>Balance</span> {{balance}}
+        <button ng-click="submit()">Calculate Balance</button>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

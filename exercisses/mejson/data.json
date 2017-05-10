@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Mazen",
+        "age": 26,
+        "isAlive": true,
+        "hobbies": ["acting", "programming", "swimming"],
+        "address": {
+            "city": "Beirut",
+            "area": "sfair",
+        }
+},
+   {
+        "name": "Methaq",
+        "age": 42,
+        "isAlive": true,
+        "hobbies": ["acting", "programming", "swimming"],
+        "address": {
+            "city": "Baghdad",
+            "area": "Hara Hrek",
+        }
+} 
+]

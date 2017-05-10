@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Hit List</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body ng-controller="mainCtrl" ng-init="getPokemon()">
+<div ng-repeat="status in arr">
+    <div>
+       <div>{{status.name}}</div>
+        <img ng-src={{status.image}} alt="" width="500px">
+    </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

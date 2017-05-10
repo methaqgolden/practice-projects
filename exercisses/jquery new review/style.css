@@ -1,0 +1,42 @@
+body {
+    background-color: #cccccc;
+    font-family: cursive;
+    text-align: left;
+    font-size: 30px;
+    color: black;
+    margin: 5px;
+    text-shadow: 3px 2px black;
+}
+.container-floid {
+    text-align: center;
+}
+.meme {
+    text-align: center;
+}
+.btn:hover {
+    background-color: blue;
+}
+h1 {
+    text-align: center;
+}
+
+#btn {
+    background-color: #009688;
+    font-family: cursive;
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+}
+
+
+#output {
+    list-style-type: circle;
+    background: #80CBC4;
+    padding: 5px;
+    margin-left: 35px;
+    
+}
+li {
+    margin-top: 30px;
+}

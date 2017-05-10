@@ -1,0 +1,31 @@
+body {
+    background-color:white;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    font-family: 'Eagle Lake', cursive;
+}
+form1 {
+    display: block;
+    text-align: left;
+}
+form2 {
+    display: block;
+   text-align: right;
+}
+.grandazer1 {
+    width: 200px;
+    height: 400px;
+    
+}
+.grandazer2 {
+    width: 200px;
+    height: 400px;
+}
+#tex {
+    font-size: 50px;
+    background-color: lightpink;
+    text-align: center;
+    
+}

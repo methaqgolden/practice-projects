@@ -1,0 +1,71 @@
+{
+    "appetizers": [
+        {
+            "name": "fries",
+            "cost": 7000,
+            "isTasty": true,
+            "ingredients": ["salt", "tamato"]
+        },
+        {
+        "name": "cold",
+        "cost": 10000,
+        "isTasty": true,
+    },
+       {
+        "name": "Hot",
+        "cost": 8000,
+        "isTasty": true,
+    } 
+    ],
+    "cold sandwiches": [
+        {
+            "name": "falafel",
+            "cost": 3000,
+            "isTasty": true,
+        },
+        {
+        "name": "cold fish",
+        "cost": 12000,
+        "isTasty": true,
+    },
+       {
+        "name": "Batates",
+        "cost": 2000,
+        "isTasty": true,
+    } 
+    ],
+    "hot sandwiches": [
+        {
+            "name": "hot falafel",
+            "cost": 3000,
+            "isTasty": true,
+        },
+        {
+        "name": "hot fish",
+        "cost": 12000,
+        "isTasty": true,
+    },
+       {
+        "name": "hot Batates",
+        "cost": 2000,
+        "isTasty": true,
+    } 
+],
+    "drinks": [
+        {
+            "name": "coca cola",
+            "cost": 1000,
+            "isTasty": true,
+        },
+        {
+        "name": "sprit",
+        "cost": 2000,
+        "isTasty": true,
+    },
+       {
+        "name": "water",
+        "cost": 2000,
+        "isTasty": true,
+    } 
+   ]
+}

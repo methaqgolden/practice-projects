@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>angular example</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body ng-controller="mainCtrl">
+
+  <table>
+      <tr>
+          <th>handel</th>
+          <th>rank</th>
+          <th>clan</th>
+      </tr>
+      <tr ng-repeat="person in player.kills" ng-repeat="person in kills[$index]">
+<!--         <span ng-repeat="person in kills[clan]"></span> -->
+          <td>{{person.handle}}</td>
+          <td>{{person.rank}}</td>
+          <td>{{person.clan}}</td>
+      </tr>
+  </table>
+   {{methaq}}
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!--
+<div ng-app='app' ng-controller='default' ng-init='init()'>
+  <div ng-repeat='day in days'>
+    <strong>{{day}}</strong><br/>
+    <span ng-repeat="item in arr[day]">{{item}} </span> 
+  </div>
+</div>
+angular.module('app',[]).controller('default', function($scope) {
+    $scope.init = function() {
+    	$scope.days = ["mon", "tue", "wed", "sun"];
+      $scope.arr = [];
+      $scope.arr["mon"] = ["apple","orange"];
+      $scope.arr["tue"] = ["blue","swish"];
+      $scope.arr["sun"] = ["pineapple","myfruit","carrot"];
+    }
+-->
