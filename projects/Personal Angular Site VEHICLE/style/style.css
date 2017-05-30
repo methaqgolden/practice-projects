@@ -1,0 +1,59 @@
+body {
+    background-color: lightpink;
+    font-size: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    text-align: center;
+}
+
+#mazin {
+    text-align: center;
+    width: 600px;
+    margin-left: 350px;
+}
+
+footer {
+    background-color: lightpink;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: red;
+    text-align: center;
+}
+
+#pic {
+    width: 100px;
+    height: 75px;
+    margin-left: 700px;
+    margin-bottom: 100px
+}
+
+#methaq {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+}
+#myHeader {
+    width: 100%;
+    height: 100px;
+}
+video { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+ background: url('//demosthenes.info/assets/images/polina.jpg') no-repeat;
+  background-size: cover;
+  transition: 1s opacity;
+}

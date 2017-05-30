@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
@@ -8,20 +7,13 @@
     <link href="https://fonts.googleapis.com/css?family=Eagle+Lake|Oswald" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
     <form>
-
+        <audio id="buzzer" src="42087.mp3" type="audio/ogg"></audio>
         <div class="container-full">
-
             <div class="row text-center">
-
                 <div class="col-md-4 col-md-offset-4">
-
                     <h1>High-Score Haven</h1>
-
-
                     Full Name:<br>
                     <input type="text" id="name" class="form-control" placeholder="Name"><br> Game:
                     <br>
@@ -30,15 +22,9 @@
                     <input id="date" type="date" class="form-control"><br> High Score:
                     <br>
                     <input id="score" type="number" class="form-control" placeholder="score"><br>
-
                     <span>Trash Talk<input type="checkbox" id="check"></span>
-
-
                     <button id="submit" class="btn btn-default">Submit</button>
                 </div>
-
-
-
             </div>
             <div class="row">
                 <div class="col-md-12">
@@ -52,20 +38,12 @@
                             <th>High Score</th>
                             <th>Trash Talk</th>
                         </tr>
-
                     </table>
                 </div>
             </div>
-
-
-
         </div>
     </form>
-
-
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-
     <script src="script.js"></script>
 </body>
-
 </html>

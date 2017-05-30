@@ -1,0 +1,29 @@
+<form>
+    <div class="container">
+        <h1 class="well">Golden Music Video</h1>
+        
+        <div ng-repeat="person in arr">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div id="mazin">
+                        <div ng-repeat="person in arr">
+                            <div class="well">{{person.artistName}}</div>
+                                                        <div class="well"> <img ng-src={{person.artworkUrl100}} id="methaq"/></div>
+
+                            <div class="well">{{person.collectionName}}</div>
+                            <div class="well">{{person.country}}</div>
+                            <div class="well">
+                                <video width="320" height="240" controls>
+                                      <source ng-src={{person.previewUrl}} type="video/mp4">
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</form>

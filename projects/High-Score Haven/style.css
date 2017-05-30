@@ -1,38 +1,38 @@
 body {
-     
-     font-family: 'Oswald', sans-serif;
-     font-size: 20px;
-     background-image: url("http://www.infocurse.com/wp-content/uploads/2014/11/716988156_1368083660.png");
-     background-size: 300px;
-     background-repeat: no-repeat;
-     background-position: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    background-image: url("10.png");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
     overflow-x: hidden
- }
- 
- form {
-     background-image: url("designer-board-typo-word.jpg");
-     background-size: cover;
-     background-position: bottom;
-     text-align: center;
-     border: 15px solid #FFAD5C;
- }
+}
 
- th {
-     border: 1px solid #FFAD5C;
-     background-color: #36648b;
-     text-align: center;
- }
- td {
-     border: 2px solid #36648b;
-     background-color: #FFAD5C;
-     text-align: center;
- }
- input {
-     margin-top: 10px;
- }
+form {
+    background-image: url("designer-board-typo-word.jpg");
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    border: 15px solid #FFAD5C;
+}
+
+th {
+    border: 1px solid #FFAD5C;
+    background-color: #36648b;
+    text-align: center;
+}
+
+td {
+    border: 2px solid #36648b;
+    background-color: #FFAD5C;
+    text-align: center;
+}
+
+input {
+    margin-top: 3px;
+}
+
 h1 {
     font-family: 'Eagle Lake', cursive;
 }
-
- 
 

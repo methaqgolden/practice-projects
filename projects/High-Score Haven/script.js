@@ -1,6 +1,6 @@
 var num = 1;
 function msgGenerator() {
-    var trashTalk = ["you are good man", "you are live in fartbox", "drink yughurt"];
+    var trashTalk = ["Drink Yughurt", "Eating Pizza", "Go to Sleep"];
     var index = Math.floor(Math.random() * trashTalk.length)
     return trashTalk[index];
 }
@@ -34,4 +34,7 @@ $(document).ready(function(){
         form.animate({height: '500px', opacity: '0.4'}, "slow");
         form.animate({width: '800px', opacity: '0.8'}, "slow");
     });
+});
+$('#submit').on('click', function() {
+    $('#buzzer').get(0).play();
 });
